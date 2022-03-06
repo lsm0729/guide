@@ -11,4 +11,6 @@ for i in $(sudo lsof /dev/nvidia* | grep python | awk '{print $2}' | sort -u); d
 ## conda
 
 conda create -n 가상환경이름 python=버전
+
+
 conda remove -n 가상환경이름 --all
